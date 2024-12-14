@@ -18,3 +18,5 @@ https://github.com/HamletDuFromage/switch-cheats-db/releases/latest
 
 ## Cheats count
 53330 cheats in 2383 titles/5389 updates
+
+## Updated 2024-12-14
