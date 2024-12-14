@@ -27,7 +27,7 @@ jobs:
 
       - name: push changes
         run: |
-        git config --global user.name 'w1ls0nx'
+          git config --global user.name 'w1ls0nx'
           git config --global user.email 'mdianerx@gmail.com'
           git add versions.json
           git add versions/*
