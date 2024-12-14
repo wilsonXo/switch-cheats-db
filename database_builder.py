@@ -46,7 +46,7 @@ class GbatempCheatsInfo:
         return version.date()
 
     def has_new_cheats(self, database_version):
-        return self.gbatemp_version > database_version
+        return True
 
     def get_gbatemp_version(self):
         return self.gbatemp_version
@@ -68,7 +68,7 @@ class HighFPSCheatsInfo:
         return date.fromisoformat(last_commit_date.split("T")[0])
 
     def has_new_cheats(self, database_version):
-        return self.highfps_version > database_version
+        return True
 
     def get_high_FPS_version(self):
         return self.highfps_version
